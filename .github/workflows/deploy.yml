@@ -28,7 +28,6 @@ jobs:
           node-version: 20
       - run: npm install
       - run: npm run build
-      - name: List dist
       - run: ls dist
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
